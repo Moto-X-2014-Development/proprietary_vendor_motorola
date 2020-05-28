@@ -19,6 +19,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/msm8916-common
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/msm8916-common/proprietary/etc/flp.conf:$(TARGET_COPY_OUT_SYSTEM)etc/flp.conf \
+    vendor/motorola/msm8916-common/proprietary/etc/gps.conf:$(TARGET_COPY_OUT_SYSTEM)etc/gps.conf \
+    vendor/motorola/msm8916-common/proprietary/etc/sap.conf:$(TARGET_COPY_OUT_SYSTEM)etc/sap.conf \
+    vendor/motorola/msm8916-common/proprietary/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_SYSTEM)lib/libloc_api_v02.so \
+    vendor/motorola/msm8916-common/proprietary/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_SYSTEM)lib/libloc_ds_api.so \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
